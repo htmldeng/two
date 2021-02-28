@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document</title><link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"><link rel="stylesheet" href="../css/dist/list.min.css"><link rel="stylesheet" href="../css/dist/base.css"><!-- <script src="../js/daohang.js"></script> --><script src="../jquery/jquery.min.js"></script></head><body><div class="header"><div class="headerTop"><div class="headerCon"><div class="topLeft"><span>名创优品 - 爱生活 爱miniso</span></div><div class="topRight"><ul><li><span>|</span><a href="/member-orders.html" target="black"> 订单管理</a></li><li><span>|</span><a href="https://web.jiaxincloud.com//gray/big.html?&thirdJson=%257B%257D&bg=007AFF&dialogLogo=0&dialogType=1&dialogMode=1&lang=cn&orgName=zzgxbtd3m2j0bg&appName=mcyp678&appChannel=20008&direct=1&quoteUrl=https://web.jiaxincloud.com&env=gray&thirdPartyFlag=34&jiaxinDomain=https://web.jiaxincloud.com/&pageTitle=%25E6%25B5%258B%25E8%25AF%2595%25E5%25AE%25A2%25E6%259C%258D-%25E4%25B8%2580%25E9%2594%25AE%25E4%25BD%2593%25E9%25AA%258C&pageUrl=https%253A%252F%252Fweb.jiaxincloud.com%252Fonekey.html%253Fid%253Dzzgxbtd3m2j0bg%2526appName%253Dmcyp678%2526appChannel%253D20008&sign=396f6f3740bcdc3094f168799c0584d9&alone=1&jump=true"> 在线客服</a></li><li><span>|</span><a href="http://m.miniso.cn/article-index_question-i-13.html"> 帮助中心</a></li></ul><div class="login_topRight"><span><a href="../html/denglu.html">登录</a></span> <span><a href="../html/zhuce.html">注册</a></span></div></div></div></div><!-- 导航栏 --><div class="headerbody"><div class="rel"><div class="logo"><a href=""><img src="https://s1.miniso.cn/bsimg/ec/public/images/2a/19/2a1937b510d45ab1c1a2d6e9e811e043.png" alt=""></a><div class="search"><button class="searchbtn"><img src="http://m.miniso.cn/public/app/siteyx/statics/static/images/search.png" alt=""></button> <input type="text" placeholder="输入关键字寻找宝贝" autocomplete="off"></div></div></div><div class="nav"><ul class="navLeft"><li><a href="../html/index.html">首页</a></li><li><a href="">系列</a></li><li><a href="">居家</a></li><li><a href="">餐厨</a></li><li><a href="">服装</a></li><li><a href="">美护</a></li><li><a href="">出行</a></li><li><a href="">电器</a></li><li><a href="">杂货</a></li><span>|</span></ul><ul class="box"></ul><ul class="navRight"><li><a href="">专题</a></li><li><a href="">限时特卖</a></li></ul></div></div><!-- <div class="swiper">
+            <a href="http://m.miniso.cn/topic-detail-18.html"><img
+                    src="https://s1.miniso.cn/bsimg/ec/public/images/5a/ae/5aaea8de41523b9ea6c7b2eb3dc23929.jpg"
+                    alt=""></a>
+
+        </div> --></div><div class="container"><ul class="list"><!-- <li class="list-item">
+                <div class="title">
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li class="active">Data</li>
+                    </ol>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="thumbnail">
+                            <img src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2114784451/O1CN01cdNJpt1ikbU1UmZ35_!!2114784451-0-lubanu-s.jpg_230x230.jpg"
+                                alt="...">
+                            <div class="caption">
+                                <h3>诗绪刺绣改良旗袍连衣裙女夏装2020年新款中国风印花A字裙子52150</h3>
+                                <div class="price">
+                                    <i class="glyphicon glyphicon-yen"></i>
+                                    <span>199.8</span>
+                                </div>
+                                <p>
+                                    <a href="./car.html" class="btn btn-primary" role="button">查看购物车</a>
+                                    <a href="./detail.html" class="btn btn-info" role="button">查看商品详情</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li> --></ul><div class="page"></div></div><script src="../js/ajax.js"></script><script src="../js/pagination.js"></script><script src="../js/list.js"></script><script>var arry = [{
+            name: ["粉红豹", "裸熊", "芝麻街", "花木兰", "三丽鸥", "潘通", "迪士尼"]
+        }, {
+            name: ["拖鞋", "清洁保鲜", "家室", "收纳", "", "浴室用品"]
+        }, {
+            name: ["杯壶", "餐具", "功能厨具"]
+        }, {
+            name: ["T桖", "运动服饰", "内衣", "", "丝袜"]
+        }, {
+            name: ["美妆", "身体护理", "护肤品", "口腔护理", "洗发护发"]
+        }, {
+            name: ["旅行用品", "箱包", ]
+        }, {
+            name: ["生活电器", "数码"]
+        }, {
+            name: ["雨具", "零食", "文具", "玩具"]
+        }]
+
+        let box = $('.box');
+        $('.navLeft li').each(function (index) {
+            $('.navLeft li').eq(index + 1).hover(function () {
+                let str = ''
+                $.each(arry[index].name, function (index, item) {
+                    str += `<li ><a href="">${item}</a></li>`
+                })
+                box.html(str);
+                box.show();
+            })
+        })
+
+        box.mouseover(() => {
+            box.show()
+        });
+        box.mouseout(() => {
+            box.hide()
+
+        });</script></body></html>

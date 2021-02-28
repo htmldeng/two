@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 276px;
+    // background-color: aqua;
+    ;
+
+
+    // 顶部栏
+    .headerTop {
+        width: 100%;
+        height: 31px;
+        background-color: #000;
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+
+
+        .headerCon {
+            width: 1090px;
+            height: 31px;
+            margin: auto;
+
+            .topLeft {
+                float: left;
+                width: 151px;
+                height: 18px;
+            }
+
+            .topRight {
+                float: right;
+                font-size: 12px;
+
+                // 注册和登录
+                .login_topRight {
+                    width: 94px;
+                    float: right;
+
+                    a {
+                        color: white;
+                        padding-right: 21px;
+                    }
+                }
+
+                ul {
+                    float: right;
+
+                    li {
+                        float: left;
+                        padding-right: 14px;
+
+                        span {
+                            padding-right: 15px;
+                        }
+
+                        a {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    // 导航栏部分
+    .headerbody {
+        padding-top: 20px;
+        overflow: hidden;
+        border-bottom: 1px solid #eee;
+
+
+        .rel {
+            width: 1090px;
+            height: 133px;
+            margin: auto;
+            // background-color: bisque;
+            position: relative;
+
+            .logo {
+                width: 100px;
+                height: 125px;
+                margin: auto;
+
+                img {
+                    width: 100%;
+                }
+
+                .search {
+                    border: 1px solid #ccc;
+                    border-radius: 30px;
+                    position: absolute;
+                    top: 0;
+                    right: 55px;
+
+                    .searchbtn {
+                        border: 1px solid #fff;
+                        padding: 10px;
+                        background-color: #fff;
+                        border-radius: 30px;
+                        outline: none;
+                    }
+
+                    img {
+                        background-color: #fff;
+                    }
+
+
+                    input {
+                        width: 313px;
+                        height: 36px;
+                        border-radius: 0 30px 30px 0;
+                    }
+                }
+            }
+        }
+
+        // 导航栏
+        .nav {
+            width: 1090px;
+            // height: 32px;
+            margin: auto;
+            // background-color: red;
+            padding: 30px 90px 60px 90px;
+            position: relative;
+
+            .box {
+                padding: 14px 8px;
+                position: absolute;
+
+                // left: 10px;
+                width: 1090px;
+                height: 90px !important;
+                background-color: white;
+                z-index: 11;
+                left: 70px;
+                display: none;
+                text-align: center;
+
+                li {
+                    float: left;
+                    padding: 0 28px;
+                }
+            }
+
+            .navLeft {
+                float: left;
+                line-height: 32px;
+                font-size: 12px;
+
+
+
+
+                li {
+                    float: left;
+                    padding: 0 28px 0 28px;
+
+                    a {
+                        font-weight: 800;
+                    }
+
+
+                }
+            }
+
+            .navRight {
+                float: right;
+                line-height: 32px;
+                font-size: 12px;
+                font-weight: 800;
+
+                li {
+                    float: left;
+                    padding: 0 28px 0 28px;
+                }
+            }
+
+        }
+    }
+
+    .swiper {
+        width: 100%;
+        height: 420px;
+
+        // background-color: #000;
+        a {
+            img {
+                width: 100%;
+                height: 420px;
+            }
+        }
+    }
+
+
+
+
+    
+}
+
+
+
+
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    padding-bottom: 30px;
+}
+
+ul {
+    overflow: hidden;
+}
+
+.list-item {
+    width: 260px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 10px 10px;
+}
+
+.list-item .row {
+    margin: 0;
+}
+
+.list-item .title {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item .title .breadcrumb {
+    height: 36px;
+    overflow: hidden;
+}
+
+.list-item .row h3 {
+    text-overflow: ellipsis;
+    /*有些示例里需要定义该属性，实际可省略*/
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /*规定超过两行的部分截断*/
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+    /*在任何地方换行*/
+}
+
+.list-item .row .price {
+    font-size: 30px;
+    color: red
+}
+
+.page {
+    height: 40px;
+    border: 1px solid skyblue;
+    width: 60%;
+    margin: auto;
+}
+
+.page p {
+    cursor: pointer;
+}

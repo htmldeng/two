@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 276px;
+    // background-color: aqua;
+
+
+    // 顶部栏
+    .headerTop {
+        width: 100%;
+        height: 31px;
+        background-color: #000;
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+
+
+        .headerCon {
+            width: 1090px;
+            height: 31px;
+            margin: auto;
+
+            .topLeft {
+                float: left;
+                width: 151px;
+                height: 18px;
+            }
+
+            .topRight {
+                float: right;
+                font-size: 12px;
+
+                // 注册和登录
+                .login_topRight {
+                    width: 94px;
+                    float: right;
+
+                    a {
+                        color: white;
+                        padding-right: 21px;
+                    }
+                }
+
+                ul {
+                    float: right;
+
+                    li {
+                        float: left;
+                        padding-right: 14px;
+
+                        span {
+                            padding-right: 15px;
+                        }
+
+                        a {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    // 导航栏部分
+    .headerbody {
+        padding-top: 20px;
+        overflow: hidden;
+        border-bottom: 1px solid #eee;
+
+
+        .rel {
+            width: 1090px;
+            height: 133px;
+            margin: auto;
+            // background-color: bisque;
+            position: relative;
+
+            .logo {
+                width: 100px;
+                height: 125px;
+                margin: auto;
+
+                img {
+                    width: 100%;
+                }
+
+                .search {
+                    border: 1px solid #ccc;
+                    border-radius: 30px;
+                    position: absolute;
+                    top: 0;
+                    right: 55px;
+
+                    .searchbtn {
+                        border: 1px solid #fff;
+                        padding: 10px;
+                        background-color: #fff;
+                        border-radius: 30px;
+                        outline: none;
+                    }
+
+                    img {
+                        background-color: #fff;
+                    }
+
+
+                    input {
+                        width: 313px;
+                        height: 36px;
+                        border-radius: 0 30px 30px 0;
+                    }
+                }
+            }
+        }
+
+        .nav {
+            width: 1090px;
+            // height: 32px;
+            margin: auto;
+            // background-color: red;
+            padding: 30px 90px 60px 90px;
+
+            .navLeft {
+                float: left;
+                line-height: 32px;
+                font-size: 12px;
+
+                li {
+                    float: left;
+                    padding: 0 28px 0 28px;
+                }
+            }
+
+            .navRight {
+                float: right;
+                line-height: 32px;
+                font-size: 12px;
+
+                li {
+                    float: left;
+                    padding: 0 28px 0 28px;
+                }
+            }
+
+        }
+    }
+
+    // 登录界面
+    .backImg {
+        width: 100%;
+        height: 580px;
+        background-image: url(https://s1.miniso.cn/bsimg/ec/public/images/c6/b6/c6b6ec842c59335e77d9930bf53daf79.jpg?x-oss-process=style/high);
+        overflow: hidden;
+
+        .main {
+            width: 1090px;
+            height: 461px;
+            margin: 0 auto;
+            margin-top: 60px;
+
+            .board {
+                float: right;
+                width: 387px;
+                height: 461px;
+                background-color: white;
+                padding: 60px 40px 17px;
+              
+                .form-horizontal {
+                    width: 307px;
+                    // border: 1px solid #ccc;
+                    padding: 20px;
+                    margin: auto;
+                    margin-top: 30px;
+                    border-radius: 5px;
+                    // box-shadow: 0px 0px 5px #000;
+                    input{
+                        width: 307px;
+                        height: 36px;
+                        border: 1px solid #ccc;
+                        margin-bottom: 10px;
+                        padding-left: 20px;
+                        border-radius: 5px;
+                    }
+                    .btn{
+                        width: 307px;
+                        height: 49px;
+                        background-color: #d9232e;
+                        border: 0;margin-top: 20px;
+                    }
+                }
+                
+                .form-horizontal label {
+                    width: 100px;
+                }
+                
+                .form-horizontal>.form-group>div {
+                    width: 300px;
+                }
+                h2 {
+                    margin-bottom: 28px;
+                }
+
+                .input1 {
+                    width: 307px;
+                    height: 48px;
+                    position: relative;
+
+                    .phone {
+                        position: absolute;
+                        top: 5px;
+                        left: 10px;
+                    }
+
+                    .x-input {
+                        width: 307px;
+                        height: 36px;
+                        padding-left: 40px;
+                        border: 1px solid #ccc;
+                    }
+                }
+
+                .input2 {
+                    width: 307px;
+                    height: 48px;
+                    position: relative;
+
+                    .y-input {
+                        width: 307px;
+                        height: 36px;
+                        padding-left: 40px;
+                        border: 1px solid #ccc;
+                    }
+
+                    .lock {
+                        position: absolute;
+                        top: 5px;
+                        left: 10px;
+                    }
+
+                }
+
+                .hint {
+                    width: 307px;
+                    height: 31px;
+                    color: #d9232e!important;
+                    // margin-top: 10px;
+                }
+
+                .denglu {
+                    width: 307px;
+                    height: 49px;
+                    font-size: 18px;
+                    color: #fff;
+                    background-color: red;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                }
+
+                .etc {
+                    font-size: 12px;
+                    margin-top: 10px;
+
+                    .etc_right {
+                        float: right;
+                    }
+                }
+
+                .logo_party {
+                    position: relative;
+                    margin-top: 80px;
+                    width: 387px;
+                    height: 45px;
+                    background: url(http://m.miniso.cn/public/app/siteyx/statics/static/images/loginBar.png) no-repeat;
+
+                    .logo_weixin {
+                        position: absolute;
+                        bottom: 0;
+                        left: 125px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .foot_top {
+        width: 100%;
+        height: 277px;
+        padding: 40px 0 40px 0;
+
+        .x_main {
+            width: 1034px;
+            height: 193px;
+            margin: auto;
+
+            ul {
+
+                li {
+                    float: left;
+                    text-align: center;
+
+                    h1 {
+                        font-size: 16px;
+                    }
+
+                    h2 {
+                        margin: 31px 0 22px;
+                    }
+                }
+
+                li:nth-child(1) {
+                    width: 155px;
+                    height: 113px;
+                }
+
+                li:nth-child(2) {
+                    width: 433px;
+                    height: 170px;
+                    padding: 0 91px;
+                    margin: 0 91px 0 112px;
+                    border-left: 1px solid #e8e8e8;
+                    border-right: 1px solid #e8e8e8;
+
+                    p {
+                        margin-top: 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    // 底部信息栏
+    .foot_buttom {
+        width: 100%;
+        height: 210px;
+        background-color: #414141;
+
+        .y_main {
+            width: 1090px;
+            height: 187px;
+            margin: auto;
+            color: #fff;
+
+            .y_top {
+                width: 1090px;
+                height: 121px;
+                border-bottom: 1px solid #5c5c5c;
+                padding-top: 40px;
+
+                li {
+                    float: left;
+                    width: 363px;
+                    height: 55px;
+                    text-align: center;
+                    font-size: 18px;
+
+                    img {
+                        margin-right: 20px;
+                    }
+                }
+            }
+
+            .y_bottom {
+                width: 739px;
+                height: 40px;
+                margin: auto;
+                padding-top: 20px;
+
+                li {
+                    float: left;
+                    padding-right: 15px;
+                    font-size: 12px;
+                    a{
+                        color: #ccc;
+                    }
+                }
+
+            }
+
+            p {
+                text-align: center;
+                color: #ccc;
+            }
+        }
+
+    }
+}

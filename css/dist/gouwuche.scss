@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 276px;
+    // background-color: aqua;
+
+
+    // 顶部栏
+    .headerTop {
+        width: 100%;
+        height: 31px;
+        background-color: #000;
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+
+
+        .headerCon {
+            width: 1090px;
+            height: 31px;
+            margin: auto;
+
+            .topLeft {
+                float: left;
+                width: 151px;
+                height: 18px;
+            }
+
+            .topRight {
+                float: right;
+                font-size: 12px;
+
+                // 注册和登录
+                .login_topRight {
+                    width: 94px;
+                    float: right;
+
+                    a {
+                        color: white;
+                        padding-right: 21px;
+                    }
+                }
+
+                ul {
+                    float: right;
+
+                    li {
+                        float: left;
+                        padding-right: 14px;
+
+                        span {
+                            padding-right: 15px;
+                        }
+
+                        a {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    // 导航栏部分
+    .headerbody {
+        padding-top: 20px;
+        overflow: hidden;
+        border-bottom: 1px solid #eee;
+
+
+        .rel {
+            width: 1090px;
+            height: 133px;
+            margin: auto;
+            // background-color: bisque;
+            position: relative;
+
+            .logo {
+                width: 100px;
+                height: 125px;
+                margin: auto;
+
+                img {
+                    width: 100%;
+                }
+
+                .search {
+                    border: 1px solid #ccc;
+                    border-radius: 30px;
+                    position: absolute;
+                    top: 0;
+                    right: 55px;
+
+                    .searchbtn {
+                        border: 1px solid #fff;
+                        padding: 10px;
+                        background-color: #fff;
+                        border-radius: 30px;
+                        outline: none;
+                    }
+
+                    img {
+                        background-color: #fff;
+                    }
+
+
+                    input {
+                        width: 313px;
+                        height: 36px;
+                        border-radius: 0 30px 30px 0;
+                    }
+                }
+            }
+        }
+
+        .nav {
+            width: 1090px;
+            // height: 32px;
+            margin: auto;
+            // background-color: red;
+            padding: 30px 90px 60px 90px;
+
+            .navLeft {
+                float: left;
+                line-height: 32px;
+                font-size: 12px;
+
+                li {
+                    float: left;
+                    padding: 0 28px 0 28px;
+                }
+            }
+
+            .navRight {
+                float: right;
+                line-height: 32px;
+                font-size: 12px;
+
+                li {
+                    float: left;
+                    padding: 0 28px 0 28px;
+                }
+            }
+
+        }
+    }
+
+    // 购物车
+    .x-box {
+        width: 100%;
+        // height: 845px;
+        // background-color: aquamarine;
+        padding-top: 20px;
+        padding-bottom: 60px;
+
+        .x-boxMain {
+            width: 1090px;
+            height: 765px;
+            // background-color: beige;
+            margin: auto;
+
+            .x-row {
+                width: 1090px;
+                height: 47px;
+                line-height: 45px;
+                border: 1px solid #ddd;
+                padding-left: 30px;
+                margin-bottom: 10px;
+                background-color: #f4f4f4;
+                font-size: 12px;
+
+                .x-checkbox {
+                    cursor: pointer;
+                    width: 16px;
+                    height: 16px;
+                    background: url(http://m.miniso.cn/public/app/siteyx/statics/static/images/checkbox.png) center center no-repeat;
+                    vertical-align: middle;
+                    float: left;
+                    display: inline-block;
+                    margin-top: 15px;
+                }
+
+                .selectAll {
+                    width: 419px;
+                    height: 18px;
+                    padding: 0 385px 0 10px;
+                    float: left;
+                }
+
+                .quantity {
+                    width: 309px;
+                    height: 18px;
+                    padding-left: 121px;
+                    padding-right: 164px;
+                }
+
+                p {
+                    width: 24px;
+                    height: 18px;
+                    display: inline-block;
+                }
+
+            }
+
+            .settle {
+                width: 1090px;
+                height: 65px;
+
+                .x-checkbox {
+                    cursor: pointer;
+                    width: 16px;
+                    height: 16px;
+                    background: url(http://m.miniso.cn/public/app/siteyx/statics/static/images/checkbox.png) center center no-repeat;
+                    vertical-align: middle;
+                    float: left;
+                    display: inline-block;
+                    margin-top: 25px;
+                }
+
+                a {
+                    display: inline-block;
+                    padding-left: 39px;
+                    height: 18px;
+                    line-height: 65px;
+                }
+
+                .onSelected {
+                    width: 70px;
+                    height: 19px;
+                    padding-left: 29px;
+                }
+
+                .detail {
+                    width: 350px;
+                    height: 57px;
+                    float: right;
+                    text-align: right;
+                    padding-right: 30px;
+
+
+                    .x-gray {
+                        float: left;
+                        width: 203px;
+                        height: 18px;
+                        line-height: 0;
+                        text-align: left;
+                        margin-top: 20px;
+
+                    }
+
+
+                    // span{
+                    //     display: inline-block;
+                    //     width: 60px;
+                    //     height: 18px;
+                    //     margin-top: 11px;
+                    //     line-height: 0;
+                    // }
+
+                    h1 {
+                        font-size: 22px;
+                        line-height: 22px;
+                        padding-top: 11px;
+                        color: #d9232e !important;
+                        width: 51px;
+                        height: 33px;
+                        text-align: right;
+                        display: inline-block;
+                        padding-top: 11px;
+                    }
+                }
+
+                .settleBtn {
+                    width: 141px;
+                    height: 100%;
+                    text-align: center;
+                    font-size: 18px;
+                    border-radius: 0;
+                    float: right;
+                    background-color: #d9232e;
+                    cursor: pointer;
+                    border: 0;
+                    color: #fff;
+                }
+            }
+
+
+            // 购物车身体
+            #cart_list {
+                width: 1090px;
+                // height: 152px;
+                // background-color: aqua;
+                margin-bottom: 10px;
+                
+                .cartList {
+                    padding: 0 30px;
+                    border: 1px solid #e8e8e8;
+                    width: 1030px;
+                    height: 142px;
+                    margin-top: 10px;
+                    margin: auto;
+                   
+                    li {
+                        width: 1030px;
+                        height: 140px;
+                        padding: 30px 0;
+                        
+                        .p_onSale {
+                            margin-right: 30px;
+                        }
+
+                        .imgbox {
+
+                            width: 80px;
+                            height: 80px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            background-color: #eee;
+                            position: relative;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+
+                            }
+                        }
+
+                        .data {
+                            padding-left: 48px;
+                            vertical-align: middle;
+                            width: 228px;
+                            height: 46px;
+                            display: inline-block;
+
+                            a {
+                                font-size: 14px;
+                            }
+
+                            span {
+                                font-size: 12px;
+                            }
+                        }
+
+                        .price {
+                            width: 188px;
+                            height: 18px;
+                            display: inline-block;
+
+                            p {
+                                text-align: center;
+                            }
+                        }
+
+                        .count {
+                            width: 102px;
+                            height: 27px;
+                            display: inline-block;
+                            padding-top: 10px;
+
+                            input {
+                                box-sizing: border-box;
+                                float: left;
+                                width: 50px;
+                                height: 27px;
+                                margin: 0 -1px;
+                                text-align: center;
+                                border-radius: 0;
+                            }
+
+                            .reduce {
+                                float: left;
+                                width: 27px;
+                                height: 27px;
+                                border: 1px solid #ddd;
+                                cursor: pointer;
+                                background: url(http://m.miniso.cn/public/app/siteyx/statics/static/images/reduce.png) center center no-repeat;
+                            }
+
+                            .plus {
+                                float: left;
+                                width: 27px;
+                                height: 27px;
+                                border: 1px solid #ddd;
+                                cursor: pointer;
+                                background: url(http://m.miniso.cn/public/app/siteyx/statics/static/images/plus.png) center center no-repeat;
+                            }
+
+                        }
+
+                        .x-red {
+                            display: inline-block;
+                            width: 274px;
+                            height: 18px;
+                            text-align: center;
+                            vertical-align: middle;
+                        }
+
+                        .del {
+                            cursor: pointer;
+                            width: 25px;
+                            height: 25px;
+                            background: url(http://m.miniso.cn/public/app/siteyx/statics/static/images/del.png) center center no-repeat;
+                            vertical-align: middle;
+                            display: inline-block;
+                        }
+
+                        .x-checkbox {
+                            cursor: pointer;
+                            width: 16px;
+                            height: 16px;
+                            // background: url(http://m.miniso.cn/public/app/siteyx/statics/static/images/checkbox.png) center center no-repeat;
+                            vertical-align: middle;
+                            float: left;
+                            display: inline-block;
+                            margin-top: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    // 底部信息栏
+    .foot_top {
+        width: 100%;
+        height: 277px;
+        padding: 40px 0 40px 0;
+
+        .x_main {
+            width: 1034px;
+            height: 193px;
+            margin: auto;
+
+            ul {
+
+                li {
+                    float: left;
+                    text-align: center;
+
+                    h1 {
+                        font-size: 16px;
+                    }
+
+                    h2 {
+                        margin: 31px 0 22px;
+                    }
+                }
+
+                li:nth-child(1) {
+                    width: 155px;
+                    height: 113px;
+                }
+
+                li:nth-child(2) {
+                    width: 433px;
+                    height: 170px;
+                    padding: 0 91px;
+                    margin: 0 91px 0 112px;
+                    border-left: 1px solid #e8e8e8;
+                    border-right: 1px solid #e8e8e8;
+
+                    p {
+                        margin-top: 28px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .foot_buttom {
+        width: 100%;
+        height: 210px;
+        background-color: #414141;
+
+        .y_main {
+            width: 1090px;
+            height: 187px;
+            margin: auto;
+            color: #fff;
+
+            .y_top {
+                width: 1090px;
+                height: 121px;
+                border-bottom: 1px solid #5c5c5c;
+                padding-top: 40px;
+
+                li {
+                    float: left;
+                    width: 363px;
+                    height: 55px;
+                    text-align: center;
+                    font-size: 18px;
+
+                    img {
+                        margin-right: 20px;
+                    }
+                }
+            }
+
+            .y_bottom {
+                width: 739px;
+                height: 40px;
+                margin: auto;
+                padding-top: 20px;
+
+                li {
+                    float: left;
+                    padding-right: 15px;
+                    font-size: 12px;
+
+                    a {
+                        color: #ccc;
+                    }
+                }
+
+            }
+
+            p {
+                text-align: center;
+                color: #ccc;
+            }
+        }
+
+    }
+}
